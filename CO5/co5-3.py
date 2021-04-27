@@ -14,5 +14,4 @@ with open("city.csv", "w")as file:
         for row in read:
             print(row)
             l.append(",".join(row))
-
 print(l)
